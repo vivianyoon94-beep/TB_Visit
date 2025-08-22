@@ -32,7 +32,7 @@ def format_worksheet_dates(worksheet, df):
 # ---------------------------
 # Streamlit UI
 # ---------------------------
-st.title("📊 TB Excel Processing App")
+st.title("📊 TB Visit Format App")
 st.write("Upload your Excel file and get the processed outputs.")
 
 uploaded_file = st.file_uploader("Choose an Excel file", type=["xlsx"])
